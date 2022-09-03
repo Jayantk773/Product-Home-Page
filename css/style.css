@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    margin-top: 2%;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+nav img{
+    margin-left: 20px;
+}
+.nav-items{
+    flex: 0.5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    left: 8%;
+}
+
+.nav-items h5{
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-left: 10%;
+    cursor: pointer;
+}
+.nav-items h5:hover{
+    cursor: pointer;
+    color: #BF3312;
+    transition: 150ms ease-in-out;
+}
+.action1{
+    margin-left: 10%;
+    width: 250px;
+    cursor: pointer;
+}
+/* Intro-Section */
+.intro-section{
+   flex: 1;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+.left-section{
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    padding-top: 10%;
+}
+.right-section{
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+}
+
+h3{
+    font-size: 35px;
+    font-family: Poppins, serif;
+    font-weight: 400;
+}
+div>h3>img{
+    width: 40px;
+}
+
+.left-section h1{
+    font-family: Poppins, sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    color: #000;
+    width: 580px;
+}
+
+.sub-headlines{
+    font-size: 30px;
+    margin-left: 10%;
+    margin-top: 4%;
+}
+
+.sub-headline{
+    text-align: start;
+    width: 320px;
+    gap: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+div>h5 img{
+    background-color: #BF3312;
+    border-radius:50% ;
+    padding: 1%;
+    width: 20px;
+    align-items: center;
+}
+
+p {
+    font-family: Poppins, sans-serif;
+    font-weight: 200;
+    font-size: 11px;
+    text-align: start;
+    padding-top: 3.5%;
+    width: 450px;
+}
+
+.action-btns{
+    font-size: 15px;
+    padding: 15px 25px;
+    border-radius: 15px;
+    border: none;
+    margin-top: 2%;
+}
+
+.action-btn{
+    background-color: #BF3312;
+    color: #ffffff;
+    margin: 5px;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+}
+.action-btn:hover{
+    cursor: pointer;
+    color: #BF3312;
+    background-color: #fff;
+    transition: 200ms ease-in-out;
+}
+
+.action-btn1:hover{
+    cursor: pointer;
+    color: #BF3312;
+    background-color: #fff;
+    transition: 200ms ease-in-out;
+}
+
+
+.headphone-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.headphone{
+    width: 420px;
+    height: 400px;
+    margin-left: 10%;
+    margin-top: 3%;
+} 
+
+.discount{
+    position: absolute;
+    width: 9%;
+    top: 46.5%;
+    right: 39%;
+}       
+
+.discount-content{
+    position: absolute;
+    top: 50%;
+    right:40%;
+    font-family: Poppins, sans-serif;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.discount-content>h4{
+    margin-left: 20px;
+    margin-top: 2%;
+}
+
+div .discount-content>h1{
+    font-size: 32px;
+    font-family: Poppins, sans-serif;
+    font-weight: bolder;
+    margin-top: -4%;
+}
+
+
+.dots{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 40px;
+    width: 100px;
+    margin-left: 32.5%;
+    margin-top: 4%;
+}
+.dot{
+    background-color: yellow;
+    height: 20px;
+    width: 25px;
+    border-radius: 50%;
+
+}
+
+.yellow-dot{
+    background-color: yellow;
+    margin-right: 20px;
+}
+.tomato-dot{
+    background-color: tomato;
+}
+
+.black-dot{
+    background-color: #000;
+    margin-left: 20px;
+}
+
+.action-btn1{
+    background-color: #BF3312;
+    color: #ffffff;
+    padding: 13px 35px;
+    border: none;
+    border-radius: 20px;
+    font-size: 14pt;
+    margin-top: 3.5%;
+    width: 30%;
+    margin-left: 26.5%;
+}
+
+@media only screen and (max-width: 720px) {
+    body{
+        background-color: #fff;
+    }
+    .nav-items{
+        display: none;
+    }
+    .intro-section{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .discount{
+        position: absolute;
+        left: 6%;
+        top: 55%;
+        width:15%;
+    }
+    .discount-content{
+        position: absolute;
+        left: 8%;
+        top: 58%;
+        font-size: 8pt;
+    }
+    .discount-content>h1{
+        font-size: 5px;
+        padding-top: 1.5%;
+    }
+}
